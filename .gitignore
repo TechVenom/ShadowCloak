@@ -1,0 +1,51 @@
+# ShadowCloak .gitignore
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Log files
+*.log
+shadowcloak.log
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Configuration backups
+/etc/shadowcloak/backup/
+backup/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Runtime files
+*.pid
+*.lock
+
+# Sensitive data
+*.key
+*.pem
+*.gpg
+secrets/
+
+# Test files
+test_*
+*_test.sh
+
+# Distribution files
+dist/
+build/
+
+# Documentation build
+docs/_build/
